@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    background-image: url(imagenes/fondoliso.jpg);
+}
+.imagenn {
+    transition: 5s;
+    }
+.imagenn:hover {
+    transform: rotate(360dg)
+}
+.tituloo {
+    transition: 3s    
+}
+.tituloo:hover {
+    transform: translate(10px, 10px);
+}
+.titulos {
+    transition: 5s;
+    }
+.titulos:hover {
+    transform: scale(3.1);
+}
+.divv {
+        background-image: linear-gradient(to right, rgb(206, 198, 198), rgb(25, 64, 116));
+        border: 2px solid black;            
+       }
+.divv a {
+    color: white;
+}
+.headerr {
+    background-image: linear-gradient(to bottom, white, blue);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    border: 2px solid black;      
+    } 
+.barra {
+    background-color: blue;
+    display: inline-block;
+    border: 3px solid black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: 10px;    
+}
+.barra:hover {
+    color: white;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, black, blue);
+}
+.precios {
+    background-color: blue;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    transition: 4s;
+    }
+.precios:hover {
+    transform: scale(2.5);
+}
+.tituloprecio {
+        background-image: linear-gradient(to right, beige, rgb(46, 34, 204) , black);
+        border: 2px solid black;
+        color: black;
+        text-align: center;
+    }
+.descripcion {
+        text-align: center;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border: 3px solid black;
+        background-color: rgb(20, 62, 124);
+        color:black;    }
+.titulo {
+        text-align: center;
+        border: 2px solid black;
+        color: black;
+        background-image: linear-gradient(rgb(19, 94, 163),rgb(28, 146, 136), white );
+        }	
+.footer {
+        background-color: black;
+        border: 2px solid black;
+        color: white;
+        text-align: center;
+        margin-bottom: 0px;              
+    }     
+nav {
+    margin-top:  10px;
+}
+.formulario {
+    background-color: grey;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid black;
+    background-color: beige;
+    height: max-content;
+    width: 100px;
+    height: 16px;
+    font-size: 12px;
+    transition: all 2s;    
+}
+.formulario:hover {
+        width: 200px;
+        height: 32px;
+        font-size: 18px;
+        border: 1px solid black;
+    }
+.locales {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: radial-gradient(blue,cyan,white);
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid black;
+    border-style: dashed; 
+}
+.productos{    
+    background-image: radial-gradient(blue,cyan,white);
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid black;
+    border-style: groove;
+}
+.imagenproducto {
+    transition: 4s;     
+}
+.imagenproducto:hover {
+        width: 400px;
+        height: 400px;
+        font-size:48px;
+        border: 1px solid black;
+        
+}
+.titulofotos {
+    text-align: center;
+    border: 4px solid black;
+    background-image: linear-gradient(cyan, darkblue);
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
+.tituloproductos {
+    text-align: center;
+    border: 4px solid black;
+    background-color: blue;
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
+.imagenlocales {
+    transition: 4s;
+}
+.imagenlocales:hover {
+    transform: scale(1, 2);
+}
+.letracontacto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba (0,0,0,0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+.parrafoproductos {
+    font-size: 28px;
+    font-style: italic;
+}
+.logohistoria {
+    transform: 5s;
+}
+.logohistoria:hover {
+    transform: scale(2.2);
+}
